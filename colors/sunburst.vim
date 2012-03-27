@@ -15,6 +15,8 @@ if exists('syntax_on')
 endif
 let colors_name = 'sunburst'
 
+hi ColorColumn ctermbg=233 guibg=#111111
+
 " Custom Ruby/JavaScript links (thanks to vividchalk.vim from tpope)
 hi link railsMethod         PreProc
 hi link rubyDefine          Keyword
