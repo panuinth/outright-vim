@@ -45,7 +45,7 @@ endif
 
 " Show a vertical line/guard at column 80
 if exists('+colorcolumn')
-  set colorcolumn=80
+  set colorcolumn=120
 endif
 
 set guifont=Bitstream\ Vera\ Sans\ Mono:h14
