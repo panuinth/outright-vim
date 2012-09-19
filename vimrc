@@ -257,4 +257,4 @@ map <silent> <C-H> :call Html2Haml()<CR>
 
 unmap <Leader>te
 
-" set clipboard=unnamed
+set clipboard=unnamed
