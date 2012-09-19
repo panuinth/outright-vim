@@ -23,11 +23,7 @@ endif
 
 " Color scheme
 set t_Co=256 " Set 256 colors
-if !has("gui_running")
-  autocmd VimEnter * GuiColorScheme sunburst
-else
-  colorscheme sunburst
-endif
+colorscheme sunburst256
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
