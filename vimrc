@@ -23,7 +23,11 @@ endif
 
 " Color scheme
 set t_Co=256 " Set 256 colors
-colorscheme sunburst256
+if !has("gui_running")
+  colorscheme sunburst256
+else
+  colorscheme sunburst
+endif
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
